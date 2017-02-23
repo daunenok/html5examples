@@ -1,0 +1,145 @@
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+nav {
+	padding-left: 20px;
+}
+.jumbotron {
+	margin-top: 64px;
+	margin-bottom: 0;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 20px 0;
+}
+
+/* background's -----------------------------------*/
+
+#canvas-example {
+	background-color: #fff;
+}
+#geolocation-example {
+	background-color: #f5f5f5;
+	padding: 0 40px 40px;
+}
+#webstorage-example {
+	background-color: #fff;
+	text-align: center;
+}
+#form-example {
+	background-color: #f5f5f5;
+	padding-bottom: 40px;
+}
+#drag-example {
+	background-color: #fff;
+	padding-bottom: 50px;
+}
+
+/* canvas -------------------------------------------*/
+
+#myCanvas {
+	border: 2px solid #F16E23;
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto 50px;
+}
+
+/* geolocation ---------------------------------------*/
+
+#geolocation-example .panel {
+	width: 600px;
+	margin: 0 auto;
+}
+#coords {
+	float: right;
+	margin-right: 150px;
+}
+#map {
+	margin-top: 20px;
+}
+
+/* webstorage -----------------------------------------*/
+
+#webstorage-example button {
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-family: 'Fredoka One', cursive;
+}
+#webstorage-example .alert {
+	width: 400px;
+	text-align: center;
+	margin: 0 auto 30px;
+	font-size: 130%;
+}
+.badge {
+	font-family: 'Lobster', cursive;
+	font-size: 130%;
+}
+
+/* form --------------------------------------------*/
+
+#form-example form {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 30px;
+}
+#form-example .form-group:last-child {
+	margin-top: 50px;
+}
+.input-flex {
+	display: flex;
+	font-size: 130%;
+}
+.form-footer {
+	width: 600px;
+	height: 80px;
+	padding: 50px 20px 0 0; 
+	margin: 0 auto;
+	background-color: #C4C4C4;
+	text-align: right;
+}
+.form-header {
+	width: 600px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #C4C4C4;
+	font-size: 300% ;
+	font-family: 'Fredoka One', cursive; 
+	text-align: center;
+	line-height: 100px;
+	background: linear-gradient(#e9f4fb, #3d9fdb);
+}
+
+/* drag and drop --------------------------------*/
+
+.drag-area {
+	width: 500px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.drag-img {
+	width: 222px;
+	height: 222px;
+	margin: 0 20px 20px 0;
+	padding: 10px;
+	border: 1px solid #000;
+	float: left;
+}
+.drag-img img {
+	margin: auto;
+}
+
+/* footer ----------------------------------------*/
+
+footer {
+	height: 100px;
+	background-color: #2196F3;
+	text-align: center;
+	padding-top: 30px;
+}
+
